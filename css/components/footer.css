@@ -1,0 +1,27 @@
+.footer-container {
+  background-color: rgb(44,43,43);
+  text-align: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.footer-container > h4 {
+  color: rgb(152, 255, 151);
+  font-size: 16px;
+}
+
+.footer-container .footer-icons ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  color: rgb(174, 255, 183);
+  font-size: 50px;
+}
+
+.footer-container .footer-icons ul li {
+  transition: 1s;
+}
+
+.footer-container .footer-icons ul li:hover {
+  text-shadow: 0 0 10px rgb(95, 224, 31);
+}
